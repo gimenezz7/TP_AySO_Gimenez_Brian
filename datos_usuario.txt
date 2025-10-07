@@ -39,3 +39,4 @@ Vulnerability Spectre v2:                Mitigation; Retpolines; STIBP disabled;
 Vulnerability Srbds:                     Unknown: Dependent on hypervisor status
 Vulnerability Tsa:                       Not affected
 Vulnerability Tsx async abort:           Not affected
+Linux ubuntu-jammy 5.15.0-157-generic #167-Ubuntu SMP Wed Sep 17 21:35:53 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
