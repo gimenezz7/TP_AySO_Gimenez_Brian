@@ -1,0 +1,148 @@
+    1  cd
+    2  mkdir repogit
+    3  cd repogit
+    4  git clone git@github.com:gimenezz7/TP_AySO_Gimenez_Brian.git
+    5  ssh-keygen -t ed25519
+    6  cat ~/.ssh/id_ed25519.pub
+    7  git clone git@github.com:gimenezz7/TP_AySO_Gimenez_Brian.git
+    8  cd TP_AySO_Gimenez_Brian
+    9  pwd
+   10  ls -l
+   11  cat /etc/os-release
+   12  grep -i home_url /etc/os-release > datos_url.txt
+   13  cat datos_url.txt
+   14  echo "Usuario=$(whoami)" > datos_usuario.txt
+   15  cat datos_usuario.txt
+   16  git add datos_usuario.txt
+   17  git commit -m "ADD: agregado datos_usuario.txt con nombre de usuario"
+   18  git push
+   19  git remote -
+   20  git remote -v
+   21  git branch
+   22  git status
+   23  git pull --rebase origin main
+   24  git branch
+   25  git remote -v
+   26  git pull --rebase origin main
+   27  git add .
+   28  git commit -m "WIP: cambios antes del pull"
+   29  git config --global user.name "Brian Gimenez"
+   30  git config --global user.email "gimenezbrian179@gmail.com"
+   31  git commit -m "WIP: cambios antes del pull"
+   32  git pull origin main --allow-unrelated-histories
+   33  git push
+   34  lscpu >> datos_usuario.txt
+   35  cat datos_usuario.txt
+   36  git add datos_usuario.txt
+   37  git commit -m "UPDATE: agregado info del CPU al archivo datos_usuario.txt"
+   38  git push
+   39  uname -a >> datos_usuario.txt
+   40  cat datos_usuario.txt
+   41  git add datos_usuario.txt
+   42  git commit -m "UPDATE: agregado info del sistema operativo al archivo datos_usuario.txt"
+   43  git push
+   44  git status
+   45  exit
+   46  cd /vagrant
+   47  mkdir bin docs src
+   48  ls
+   49  cd /vagrant
+   50  rm -r bin docs src
+   51  cd /vagrant
+   52  # Crear carpeta material1 con subcarpetas
+   53  mkdir -p material1/uni1
+   54  mkdir -p material1/uni2
+   55  mkdir -p material1/uni3
+   56  # Crear carpeta unir_material con subcarpetas
+   57  mkdir -p unir_material/uni1
+   58  mkdir -p unir_material/uni2
+   59  mkdir -p unir_material/uni3
+   60  ls material1
+   61  ls unir_material
+   62  sudo apt update
+   63  sudo apt install tree
+   64  tree material1
+   65  tree unir_material
+   66  cd /vagrant
+   67  git add .
+   68  git commit -m "ADD: estructura de directorio con material y unidades"
+   69  git push
+   70  git remote -v
+   71  cd /vagrant
+   72  git init
+   73  git remote add origin git@github.com:gimenezz7/TP_AySO_Gimenez_Brian.git
+   74  git add .
+   75  git commit -m "ADD: estructura de directorio con material y unidades"
+   76  git push
+   77  git config --global user.name "Brian Gimenez"
+   78  git config --global user.email "gimenezbrian179@gmail.com"
+   79  cd /vagrant
+   80  git init
+   81  git remote add origin git@github.com:gimenezz7/TP_AySO_Gimenez_Brian.git
+   82  git add .
+   83  git commit -m "ADD: estructura de directorio con material y unidades"
+   84  git push
+   85  git push -u origin main
+   86  git remote -v
+   87  git branch
+   88  git add .
+   89  git commit -m "Initial commit: estructura de directorio"
+   90  git branch
+   91  git add .
+   92  git commit -m "Initial commit: estructura de directorio"
+   93  gitadd
+   94  git add .
+   95  git commit -m "Initial commit: estructura de directorio"
+   96  git add
+   97  git branch
+   98  cd vagrant
+   99  git init
+  100  git branch
+  101  cd /vagrant
+  102  git init
+  103  git add .
+  104  git commit -m "ADD: estructura de directorio con material y unidades"
+  105  git push
+  106  ls ~/.ssh
+  107  cat ~/.ssh/id_ed25519.pub
+  108  it pull origin master --allow-unrelated-histories
+  109  git push -u origin master
+  110  git branch
+  111  ssh -t git@github.com
+  112  ssh-add ~/.ssh/id_ed25519
+  113  eval "$(ssh-agent -s)"
+  114  ssh-add ~/.ssh/id_ed25519
+  115  ssh -t git@github.com
+  116  ssh-add ~/.ssh/id_ed25519.pub
+  117  ssh-add -l
+  118  ssh -T git@github.com
+  119  git push -u origin master
+  120  git pull origin master --allow-unrelated-histories
+  121  git ls-remote --heads origin
+  122  git branch -m master main
+  123  git pull origin main --allow-unrelated-histories
+  124  git push -u origin main
+  125  git push
+  126  mkdir -p TP_AySO_Gimenez_Brian/{materia1/{uni1,uni2,uni3},materia2/{uni1,uni2,uni3}}
+  127  tree TP_AySO_Gimenez_Brian
+  128  git add TP_AySO_Gimenez_Brian
+  129  git commit -m "Agrego estructura de directorio con materias y unidades"
+  130  git push
+  131  cd TP_AySO_Gimenez_Brian/bin
+  132  mkdir -p TP_AySO_Gimenez_Brian/bin
+  133  cd TP_AySO_Gimenez_Brian/bin
+  134  touch iniciar.sh
+  135  chmod +x iniciar.sh
+  136  nano iniciar.sh
+  137  #!/bin/bash
+  138  echo "Bienvenido al TP AySO de Brian Giménez"
+  139  ./iniciar.sh
+  140  nano iniciar.sh
+  141  ./iniciar.sh
+  142  git add bin/iniciar.sh
+  143  git commit -m "Agrego script iniciar.sh para el TP"
+  144  git push
+  145  history
+  146  history > TP_AySO_Gimenez_Brian/doc/historial.txt
+  147  mkdir -p TP_AySO_Gimenez_Brian/doc
+  148  history > TP_AySO_Gimenez_Brian/doc/historial.txt
