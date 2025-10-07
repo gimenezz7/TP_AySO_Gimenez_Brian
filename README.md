@@ -2,5 +2,5 @@
 ## Información del alumno
 
 - nombre: Brian Giménez
-- divicion: 211
+- division: 211
 - turno: tarde
